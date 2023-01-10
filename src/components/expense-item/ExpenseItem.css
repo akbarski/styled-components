@@ -1,0 +1,49 @@
+.list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4B4B4B;
+    margin-top: 1rem;
+    border-radius: 12px;
+}
+
+.date-n-title {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 11vh;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10vh;
+    background-color: #2A2A2A;
+    border-radius: 12px;
+    padding: 1rem;
+    border: 2px solid white;
+}
+
+.title {
+    font-size: 1.8rem;
+
+}
+
+.price {
+    text-align: center;
+    font-size: 1.8rem;
+    width: fit-content;
+    background-color: #40005D;
+    border-radius: 12px;
+    padding: 0.4rem;
+    margin-right: 1rem;
+}

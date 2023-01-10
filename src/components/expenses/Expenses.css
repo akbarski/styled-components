@@ -1,0 +1,12 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* background-color: #1F1F1F; */
+    margin-top: 10rem;
+    width: 50%;
+    border-radius: 12px;
+    list-style: none;
+    padding: 2rem;
+}
+
