@@ -1,11 +1,11 @@
 import "./Button.css";
 
-const Button = ({ title, onClick, width }) => {
+const Button = ({ title, onClick, width, ...rest }) => {
   const btnStyle = {
     width: width,
   };
   return (
-    <button style={btnStyle} onClick={onClick}>
+    <button style={btnStyle} onClick={onClick} {...rest}>
       {title}
     </button>
   );

@@ -66,7 +66,11 @@ export const ExpenseForm = (props) => {
       </div>
       <div className="btn-box">
         <Button title={"Отмена"} onClick={cancelHandler} />
-        <Button onClick={saveHandler} title={"Сохранить"} />
+        <Button
+          onClick={saveHandler}
+          title={"Сохранить"}
+          disabled={price === "" || date === "" || title === ""}
+        />
       </div>
     </form>
   );

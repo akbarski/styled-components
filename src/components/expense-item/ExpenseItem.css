@@ -1,10 +1,14 @@
+.list-contain {
+    width: 98%;
+}
+
 .list {
     display: flex;
-    width: 100%;
+    width: 95%;
     justify-content: space-between;
     align-items: center;
     background-color: #4B4B4B;
-    margin-top: 1rem;
+    margin: 1rem;
     border-radius: 12px;
 }
 

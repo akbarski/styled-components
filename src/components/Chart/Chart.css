@@ -1,0 +1,11 @@
+.chart-bar-wrapper {
+    height: 10vh;
+    background-color: #F8DFFF;
+    border-radius: 1rem;
+    width: 95%;
+    height: 30vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -3,13 +3,8 @@ import "./App.css";
 import { Expenses } from "./components/expenses/Expenses";
 import { NewExpense } from "./components/new-expense/NewExpense";
 
-// {
-//   title: "Charger",
-//   price: 400,
-//   date: new Date(),
-// },
-
 function App() {
+
   const [expenses, setExpenses] = useState([]);
 
   const addNewExpense = (data) => {
