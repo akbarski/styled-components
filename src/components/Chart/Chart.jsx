@@ -1,4 +1,4 @@
-import "./Chart.css";
+import styled from "styled-components";
 
 import { ChartBar } from "./chart-bar/ChartBar";
 
@@ -60,8 +60,20 @@ export const Chart = ({ items }) => {
     month[monthNumber].currentPrice += element.price;
   });
 
+  const ChartsWrapper = styled.div`
+    height: 10vh;
+    background-color: #f8dfff;
+    border-radius: 1rem;
+    width: 95%;
+    height: 30vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  `;
+
   return (
-    <div className="chart-bar-wrapper">
+    <ChartsWrapper>
       {month.map((elem) => {
         return (
           <ChartBar
@@ -72,6 +84,6 @@ export const Chart = ({ items }) => {
           />
         );
       })}
-    </div>
+    </ChartsWrapper>
   );
 };

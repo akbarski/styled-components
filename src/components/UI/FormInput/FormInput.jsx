@@ -1,8 +1,15 @@
+import styled from "styled-components";
+const Input = styled.input`
+  width: 22vw;
+  border-radius: 12px;
+  border: none;
+  height: 5vh;
+`;
 const FormInput = (props) => {
   return (
     <div>
       <label htmlFor={props.id}>{props.labelName}</label>
-      <input
+      <Input
         className={props.class}
         type={props.inputType}
         placeholder={props.placeholder || "..."}
